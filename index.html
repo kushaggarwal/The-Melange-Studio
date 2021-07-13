@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-light
+        custom-navbar-styles
+        sticky-top
+      "
+    >
+      <a
+        class="navbar-brand logo-color-blue"
+        href="./index.html"
+        style="color: #123940"
+      >
+        <img
+          src="./Images/navbar-text-logo.png"
+          class="d-inline-block align-top"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link logo-color-blue"
+              href="./about.html"
+              style="color: #123940"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link logo-color-blue"
+              href="./project.html"
+              style="color: #123940"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link logo-color-blue"
+              href="./team.html"
+              style="color: #123940"
+              >Team</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link logo-color-blue"
+              href="./contact.html"
+              style="color: #123940"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <div>
+      <img src="./Images/banner-2.png"/>
+    </div> -->
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+      data-pause="false"
+      data-interval="2300"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./Images/multicolor-banner.png"
+            class="d-block w-100 carousel-image"
+            alt="..."
+          />
+
+          <div class="carousel-logo">
+            <img
+              data-aos="flip-up"
+              data-aos-duration="1200"
+              src="./Images/white-logo.png"
+            />
+            <!-- <button class="carousel-button">View Projects</button> -->
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <p>View Projects</p>
+            <img src="./Images/down-arrow.svg" />
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <img
+            src="./Images/multicolor-banner-2.png"
+            class="d-block w-100 carousel-image"
+            alt="..."
+          />
+          <div class="carousel-logo">
+            <img src="./Images/white-logo.png" />
+
+            
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <p>View Projects</p>
+            <img src="./Images/down-arrow.svg" />
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <img
+            src="./Images/yellow-banner.png"
+            class="d-block w-100 carousel-image"
+            alt="..."
+          />
+          <div class="carousel-logo">
+            <img src="./Images/white-logo.png" />
+            
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <p>View Projects</p>
+            <img src="./Images/down-arrow.svg" />
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div>
+      <div class="quote-container">
+        <img src="./Images/quote.png" />
+        <p class="logo-color-blue quote-text" data-aos="fade-right">
+          “The Melange Studio” is an interdisciplinary approach that believes in
+          delivering transformative solutions through a value driven process.
+          Founded by Anjali Aggarwal, Dhruv and Pranvi Jain in 2020, we pursue a
+          co-creative design process by working on projects ranging from
+          architecture to interiors, we at melange studio are always motivated
+          to transform from what is conventional into something more unique.
+        </p>
+        <img src="./Images/quote-two.png" style="float: right" />
+      </div>
+      <div>
+        <!-- <div class="section-divider" style="margin-top: 100px">
+          <h1 class="section-header logo-color-blue">
+            <span class="logo-color-yellow">OUR</span> STUDIO
+          </h1>
+          <p class="description-text">
+            “The Melange Studio” is an interdisciplinary approach that believes
+            in delivering transformative solutions through a value driven
+            process. Founded by Anjali Aggarwal, Dhruv and Pranvi Jain in 2020,
+            we pursue a co-creative design process by working on projects
+            ranging from architecture to interiors, we at melange studio are
+            always motivated to transform from what is conventional into
+            something more unique.
+          </p>
+          <p class="logo-color-green text-center">
+            Know More About Us
+            <img src="./Images/left-arrow.svg" class="logo-color-green" />
+          </p>
+        </div> -->
+        <div class="section-divider">
+          <h1
+            class="section-header logo-color-blue text-center"
+            style="margin-top: 200px"
+          >
+            <span class="logo-color-yellow">OUR</span> PROJECTS
+          </h1>
+          <div class="project-container">
+            <!-- <div class="row">
+              <div class="col-4">
+                <div class="project-grid">
+                  <img
+                    src="./Images/projects/project-3.jpg"
+                    class="project-image-grid"
+                  />
+                  <h4
+                    style="margin-top: 20px"
+                    class="logo-color-blue text-center"
+                  >
+                    Ashok Vihar Residence
+                  </h4>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="project-grid">
+                  <img
+                    src="./Images/projects/project-4.jpg"
+                    class="project-image-grid"
+                  />
+                  <h4
+                    style="margin-top: 20px"
+                    class="logo-color-blue text-center"
+                  >
+                    Bagga's Residence
+                  </h4>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="project-grid">
+                  <img
+                    src="./Images/projects/project-6.jpg"
+                    class="project-image-grid"
+                  />
+                  <h4
+                    style="margin-top: 20px"
+                    class="logo-color-blue text-center"
+                  >
+                    Uphaar Office
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <div class="project-grid">
+                  <img
+                    src="./Images/projects/project-9.png"
+                    class="project-image-grid"
+                  />
+                  <h4
+                    style="margin-top: 20px"
+                    class="logo-color-blue text-center"
+                  >
+                    Bliss in the hills, Mukhteshwar
+                  </h4>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="project-grid">
+                  <img
+                    src="./Images/projects/project-11.jpg"
+                    class="project-image-grid"
+                  />
+                  <h4
+                    style="margin-top: 20px"
+                    class="logo-color-blue text-center"
+                  >
+                    Lord Of Drinks
+                  </h4>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="project-grid">
+                  <img
+                    src="./Images/projects/project-13.jpg"
+                    class="project-image-grid"
+                  />
+                  <h4
+                    style="margin-top: 20px"
+                    class="logo-color-blue text-center"
+                  >
+                    Echo Retreat, Vrindavan
+                  </h4>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="gallery">
+              <div
+                class="gallery__item gallery__item--1"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <img
+                  src="Images/projects/project-9.png"
+                  class="gallery__img"
+                  alt="Image 1"
+                  title="hjhghjgj"
+                />
+                <div class="img__description_layer background-blue">
+                  <h4 class="img__description">Project 1</h4>
+                </div>
+              </div>
+              <div
+                class="gallery__item gallery__item--2"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <img
+                  src="Images/projects/project-3.jpg"
+                  class="gallery__img"
+                  alt="Image 2"
+                />
+                <div class="img__description_layer background-yellow">
+                  <h4 class="img__description">Project 2</h4>
+                </div>
+              </div>
+              <div
+                class="gallery__item gallery__item--3"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <img
+                  src="Images/projects/project-4.jpg"
+                  class="gallery__img"
+                  alt="Image 3"
+                />
+                <div class="img__description_layer background-green">
+                  <h4 class="img__description">Project 2</h4>
+                </div>
+              </div>
+              <div
+                class="gallery__item gallery__item--4"
+                data-aos="fade-down"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <img
+                  src="Images/projects/project-6.jpg"
+                  class="gallery__img"
+                  alt="Image 4"
+                />
+                <div class="img__description_layer background-yellow">
+                  <h4 class="img__description">Project 2</h4>
+                </div>
+              </div>
+              <div
+                class="gallery__item gallery__item--5"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <img
+                  src="Images/projects/project-11.jpg"
+                  class="gallery__img"
+                  alt="Image 5"
+                />
+                <div class="img__description_layer background-green">
+                  <h4 class="img__description">Project 2</h4>
+                </div>
+              </div>
+              <div
+                class="gallery__item gallery__item--6"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <img
+                  src="Images/projects/project-13.jpg"
+                  class="gallery__img"
+                  alt="Image 6"
+                />
+                <div class="img__description_layer background-blue">
+                  <h4 class="img__description">Project 2</h4>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p class="text-center" data-aos="zoom-in">
+                <a href="./project.html">
+                  <button class="load-more-button">View More</button></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-divider">
+      <div class="row">
+        <div class="col-4" style="height: 700px">
+          <h1 style="margin: 50px" class="logo-color-blue">
+            <span class="logo-color-yellow">CONTACT</span> US
+          </h1>
+          <h5 class="logo-color-blue" style="margin: 50px">
+            Please drop a message if you wish to know more or collaborate over
+            any project
+          </h5>
+        </div>
+        <div
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+          class="col"
+          style="background-color: #123940"
+        >
+          <div style="padding-left: 50px; padding-top: 50px">
+            <form>
+              <h5 class="contact-input-header">Name</h5>
+              <input class="contact-input" />
+              <h5 class="contact-input-header">Organization</h5>
+              <input class="contact-input" />
+              <h5 class="contact-input-header">Email</h5>
+              <input class="contact-input" />
+              <h5 class="contact-input-header">Message</h5>
+              <textarea rows="4" class="contact-input"></textarea>
+              <button class="contact-submit-button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="custom-footer">
+      <img class="footer-icon" height="30px" src="./Images/Facebook-blue.svg" />
+      <img class="footer-icon" height="28px" src="./Images/linkedin-blue.svg" />
+      <img
+        class="footer-icon"
+        height="30px"
+        src="./Images/Instagram-blue.svg"
+      />
+      <h5 class="logo-color-blue" style="margin: 30px 0px">
+        The Melange Studio 2021. All rights reserved
+      </h5>
+    </div>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+</html>
