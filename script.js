@@ -10,6 +10,7 @@ function vh(v) {
   $(document).ready(function () {
     // hide .navbar first
     $(".navbar").hide();
+    console.log("hide");
 
     // fade in .navbar
     $(function () {
@@ -17,6 +18,7 @@ function vh(v) {
         // set distance user needs to scroll before we start fadeIn
         if ($(this).scrollTop() > vh(90)) {
           $(".navbar").show();
+          console.log("show");
         } else {
           $(".navbar").hide();
         }
