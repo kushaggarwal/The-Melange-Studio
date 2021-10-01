@@ -17,6 +17,9 @@ body {
 .about-pd {
   padding: 20px;
 }
+.desc-project-pd-top {
+  padding-top: 30px;
+}
 
 .text-blue {
   color: #123940;
@@ -386,5 +389,15 @@ body {
 
   .our-projects {
     font-size: 25pt;
+  }
+  .desc-project-pd-top {
+    padding-top: 0px;
+  }
+
+  #scroll-left {
+    width: 25px;
+  }
+  #scroll-right {
+    width: 25px;
   }
 }
